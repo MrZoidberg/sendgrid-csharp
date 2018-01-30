@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Sendgrid</id>
-        <version>9.9.0</version>
+        <version>10.0.0</version>
         <title>SendGrid</title>
         <authors>Elmer Thomas,SendGrid DX Team</authors>
         <licenseUrl>https://github.com/sendgrid/sendgrid-csharp/blob/master/MIT.LICENSE</licenseUrl>
@@ -20,22 +20,22 @@
         <tags>SendGrid Email Mail Microsoft Azure Transactional .NET Core</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.0">
-                <dependency id="Newtonsoft.Json" version="9.0.1" />
+                <dependency id="Newtonsoft.Json" version="10.0.3" />
                 <dependency id="System.Net.Http" version="4.0.0" />
             </group>
-            <group targetFramework=".NETStandard1.3">
-                <dependency id="NETStandard.Library" version="1.6.1" />
-                <dependency id="Newtonsoft.Json" version="9.0.1" />
-                <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="1.1.0" />
+            <group targetFramework=".NETStandard2.0">
+                <dependency id="NETStandard.Library" version="2.0.0" />
+                <dependency id="Newtonsoft.Json" version="10.0.3" />
+                <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.0.1" />
             </group>
         </dependencies>
     </metadata>
     <files>
-        <file src="lib\net452\SendGrid.dll" target="lib\net452\SendGrid.dll" />
-        <file src="lib\net452\SendGrid.pdb" target="lib\net452\SendGrid.pdb" />
-        <file src="lib\net452\SendGrid.xml" target="lib\net452\SendGrid.xml" />
-        <file src="lib\netstandard1.3\SendGrid.dll" target="lib\netstandard1.3\SendGrid.dll" />
-        <file src="lib\netstandard1.3\SendGrid.pdb" target="lib\netstandard1.3\SendGrid.pdb" />
-        <file src="lib\netstandard1.3\SendGrid.xml" target="lib\netstandard1.3\SendGrid.xml" />
+        <file src="lib\net471\SendGrid.dll" target="lib\net471\SendGrid.dll" />
+        <file src="lib\net471\SendGrid.pdb" target="lib\net471\SendGrid.pdb" />
+        <file src="lib\net471\SendGrid.xml" target="lib\net471\SendGrid.xml" />
+        <file src="lib\netstandard2.0\SendGrid.dll" target="lib\netstandard2.0\SendGrid.dll" />
+        <file src="lib\netstandard2.0\SendGrid.pdb" target="lib\netstandard2.0\SendGrid.pdb" />
+        <file src="lib\netstandard2.0\SendGrid.xml" target="lib\netstandard2.0\SendGrid.xml" />
     </files>
 </package>
